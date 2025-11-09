@@ -1,99 +1,95 @@
+Site Cv — Modelo Git Hub Pages (index
+· html
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuri de Lima Ribeiro</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        body {
-            margin: 40px;
-            font-family: Arial, sans-serif;
-        }
-        img {
-            border-radius: 8px;
-        }
-        h1, h2 {
-            margin-top: 20px;
-        }
-        a {
-            color: #0066cc;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 0.9rem;
-            color: #555;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="container">
-        <div class="row">
-            
-            <!-- Foto -->
-            <div class="col-md-3">
-                <img src="https://via.placeholder.com/200" alt="Yuri de Lima Ribeiro - Foto" class="img-fluid">
+    <div class="row g-4">
+      <!-- Sidebar -->
+      <aside class="col-lg-4">
+        <div class="sidebar sidebar-card text-center text-lg-start">
+          <div class="d-flex align-items-center gap-3 flex-lg-row flex-column">
+            <img class="avatar" src="https://avatars.githubusercontent.com/u/1?v=4" alt="Foto de perfil" />
+            <div class="text-lg-start">
+              <h2 class="h4 m-0">Yuri de Lima Ribeiro</h2>
+              <div class="muted">Doutorando em Ciência Política · UFF</div>
+              <div class="muted">Editor-chefe da ZIZ</div>
             </div>
+          </div>
 
-            <!-- Texto principal -->
-            <div class="col-md-9">
-                <h1>Yuri de Lima Ribeiro</h1>
-                <p>Doutorando em Ciência Política (UFF). Especialista em comportamento eleitoral, políticas sociais e análise quantitativa. Editor-chefe da Revista Discente de Ciência Política (ZIZ) e colaborador nos INCTs Participa e Democracia Digital.</p>
 
-                <p>
-                    <strong>Email:</strong> yurilr@gmail.com<br>
-                    <strong>Github:</strong> <a href="https://github.com/yurilimarbeiro" target="_blank">github.com/yurilimarbeiro</a><br>
-                    <strong>ORCID:</strong> <a href="https://orcid.org/0000-0003-2795-8633" target="_blank">0000-0003-2795-8633</a><br>
-                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yuri-ribeiro" target="_blank">linkedin.com/in/yuri-ribeiro</a>
-                </p>
-            </div>
+          <ul class="list-unstyled contact mt-3 mb-0 small">
+            <li><i class="bi bi-geo-alt"></i> Campina Grande, PB — Brasil</li>
+            <li><i class="bi bi-link-45deg"></i> <a href="#" target="_blank" rel="noopener">Site/portfólio</a></li>
+            <li><i class="bi bi-envelope"></i> <a href="mailto:yurilr@gmail.com">yurilr@gmail.com</a></li>
+            <li><i class="bi bi-twitter-x"></i> <a href="#" target="_blank" rel="noopener">Twitter</a></li>
+            <li><i class="bi bi-github"></i> <a href="https://github.com/yurilimarbeiro" target="_blank" rel="noopener">github.com/yurilimarbeiro</a></li>
+            <li><i class="bi bi-mortarboard"></i> <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Acadêmico</a></li>
+            <li><i class="bi bi-123"></i> <a href="https://orcid.org/0000-0003-2795-8633" target="_blank" rel="noopener">ORCID</a></li>
+          </ul>
         </div>
+      </aside>
 
-        <hr>
 
-        <!-- Seção de pesquisa -->
-        <h2>Áreas de pesquisa</h2>
-        <ul>
-            <li>Comportamento eleitoral</li>
+      <!-- Main content -->
+      <section class="col-lg-8">
+        <header class="mb-3">
+          <h1 class="display-6 lead-title">Olá, tudo bem? <span class="muted">:)</span></h1>
+        </header>
+        <p class="fs-5">Sou pesquisador em comportamento eleitoral e políticas públicas. Minha tese investiga como a dependência municipal e/ou individual de programas de transferência de renda (Bolsa Família e Auxílio Brasil) influencia o voto e a lealdade ao PT nas eleições de 2014, 2018 e 2022.</p>
+        <p>Atualmente sou <strong>editor-chefe</strong> da Revista Discente de Ciência Política (ZIZ/UFF) e colaboro com os INCTs Participa e Democracia Digital. Meus interesses incluem métodos quantitativos e geoespaciais, voto econômico e dinâmica partidária na América Latina.</p>
+
+
+        <section id="cv" class="section">
+          <h2 class="h4">Curriculum vitae</h2>
+          <p>Baixe a versão em PDF do meu CV <a href="#" download>neste link</a> (atualizado <span id="ano"></span>).</p>
+        </section>
+
+
+        <section id="pesquisa" class="section">
+          <h2 class="h4">Linhas de pesquisa</h2>
+          <ul>
+            <li>Comportamento eleitoral e lealdade partidária</li>
             <li>Políticas sociais (Bolsa Família, Auxílio Brasil)</li>
-            <li>Métodos quantitativos e geoespaciais</li>
-            <li>Partidos e extrema direita na América Latina</li>
-        </ul>
+            <li>Métodos quantitativos e mapas (Python/GeoPandas/SPSS)</li>
+            <li>Extrema direita e crise de representação na AL</li>
+          </ul>
+        </section>
 
-        <hr>
 
-        <!-- Publicações -->
-        <h2>Publicações selecionadas</h2>
-        <ul>
-            <li><strong>Lealdade condicionada?</strong> (Tese em andamento, UFF - 2025)</li>
-            <li>Partidos de extrema direita e crise da representação – Revista Debates (submissão 2025)</li>
-            <li>Outros artigos podem ser listados aqui...</li>
-        </ul>
+        <section class="section">
+          <h2 class="h4">Publicações selecionadas</h2>
+          <ul>
+            <li><strong>Lealdade condicionada?</strong> Tese (em andamento), UFF — 2025. Capítulos com modelos multinomiais e mapas IBF × voto.</li>
+            <li><strong>Partidos de extrema direita e a crise da representação</strong>. Dossiê Revista Debates — submissão 2025.</li>
+          </ul>
+        </section>
 
-        <hr>
 
-        <!-- Projetos -->
-        <h2>Projetos e bases de dados</h2>
-        <ul>
-            <li>Base com 5570 municípios (2014–2022): IBF, voto presidencial, PIB per capita, dados sociais</li>
-            <li>Mapas e visualizações com Python + GeoPandas</li>
-            <li>Análises no SPSS (correlação e regressões)</li>
-        </ul>
+        <section id="metodos" class="section">
+          <h2 class="h4">Métodos em Pauta</h2>
+          <p>Notas curtas sobre desenho de pesquisa, regressão multinomial, análise espacial e análise de conteúdo (Bardin). Em breve, textos e materiais didáticos.</p>
+        </section>
 
-        <footer>
-            © Yuri de Lima Ribeiro · Atualizado em <script>document.write(new Date().getFullYear())</script>
+
+        <section id="contato" class="section">
+          <h2 class="h4">Contato</h2>
+          <p>Para colaborações, bancas e pareceres, escreva para <a href="mailto:yurilr@gmail.com">yurilr@gmail.com</a>.</p>
+        </section>
+
+
+        <footer class="mt-4 pt-3">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>© <span id="year"></span> • Yuri de Lima Ribeiro</span>
+            <span class="muted">Hospedado no GitHub Pages</span>
+          </div>
         </footer>
-
+      </section>
     </div>
+  </main>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
